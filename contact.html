@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiking Trails Guide</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+<body>
+    <div class="row">
+      <div class="large-12 columns">
+        <header>
+            <h1 ><a href="index.html" >Hiking Trails Guide New England</a></h1>
+        </header>
+        <!-- background img is interchangeble -->
+        <img  
+          data-interchange="[img/small.jpg, small],
+            [img/large.jpg, medium],  
+            [img/large.jpg, large]">
+          <noscript><img src="img/small.jpg"></noscript>
+        <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+          <div class="title-bar-title">Menu</div>
+        </div>
+        <nav class="top-bar" id="example-menu">            
+            <div class="top-bar-right">
+              <ul class="dropdown menu" data-dropdown-menu>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="hikingTrails.html">Trails</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="row">
+        <article class="medium-9 medium-push-3 columns">
+          <div class="callout clearfix primary medium"> <!--using callout -->
+            <h2>Contact Me</h2>
+            <p>You can contact me to share your experience and tips.</p>
+          <form id="form" data-abide novalidate>    <!--using Abide -->
+            <div class="medium-9 small-push-12 columns">
+              <div data-abide-error class="alert callout" style="display: none;">
+                  <p><i class="fi-alert"></i>Alert! You can not leave these boxes empty. Please fill all of them!</p>
+              </div>
+            </div>            
+            <div class="medium-9 small-push-12 columns">
+              <label>First Name
+                <input type="text" placeholder="First Name" aria-describedby="Text" required pattern="text" class="text-left">
+                  <span class="form-error">Type your First Name!</span>
+              </label> 
+            </div>
+            <div class="medium-9 small-push-12 columns">
+              <label>Last Name
+                <input type="text" placeholder="Last Name" aria-describedby="Text" required pattern="text" class="text-left">
+                  <span class="form-error">Type your Last Name!</span>
+              </label> 
+            </div>
+            <div class="medium-9 small-push-12 columns">
+              <label>E-mail
+                <input type="text" placeholder="E-mail" aria-describedby="text" required pattern="email" class="text-left">
+                  <span class="form-error">Please type E-mail</span>
+              </label> 
+            </div>
+            <div class="medium-9 small-push-12 columns">
+              <label>Password
+                <input type="password" id="password" placeholder="abc5!89AZ" aria-describedby="form-Text" required >
+                  <span class="form-error">It's required!</span>
+              </label> 
+            </div>
+            <div class="medium-9 small-push-12 columns">
+              <label>Re-Enter Password
+                <input type="password" placeholder="abc5!89AZ" aria-describedby="form-Text2" required pattern="alpha_numeric" data-equalto="password" class="text-left">
+                <span class="form-error">It has to be same as Password</span>
+              </label> 
+            </div>
+              <!-- button-->
+            <div class="small-9 columns">
+              <fieldset class="small-9 columns">
+                <button class="button" type="submit" value="Submit">Submit</button>
+                <button class="button" type="reset" value="Reset">Reset</button>
+              </fieldset>
+            </div>
+          </form>
+        </div>
+      </article>
+        <aside class="medium-3 medium-pull-9 columns" id="fonts">
+            <h3>Contact Me</h3>
+             <ul>
+                <li><a href ="thanks.html" target="_blank">Share Your Experience </a></li><!-- connecting email form -->
+                <li>Any tips and Guidence</li>
+              </ul>
+        </aside>
+    </div>
+    <footer class="row">
+      <div class="large-12 columns">
+        <p>&copy; 2016 <a href ="thanks.html" target="_blank">aaKansHaSaharan</a></p><!-- connecting email form -->
+      </div>   
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
